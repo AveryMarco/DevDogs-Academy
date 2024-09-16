@@ -126,13 +126,51 @@ https://www.w3schools.com/css/css_selectors.asp
 
 The CSS Box Model deals with the layout and design of web pages.  
 
+The 4 components of the box model are:
 
+- Content: Text, images, and other media 
+
+- Padding: Creates space around an element inside a border
+
+- Border: Between margin and padding. You can set the style, color, and width of the border.
+
+- Margin: Separates an element from other elements
+
+```
+// width and height represent the size if the content area
+p {
+    width: 80px;
+    height: 70px;
+    margin: 0;
+    border: 2px solid black;
+    padding: 5px;
+}
+```
 
 ## Grid
+<img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*C8W3aR9H66rcj7Ml" width="450" height="300">
+* Image from Inside Caratlane
+
+An HTML element becomes a grid container when its display property is set to grid or inline-grid. In a grid layout, there is a parent element and one or more child elements. The grid container is the parent element and the grid items are the child elements. 
+
+```
+// code example taken from W3Schools
+.grid-container {
+  display: grid;
+}
+// or
+.grid-container {
+  display: inline-grid;
+}
+```
+<img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*kMVdGRZwRfdvwOis.png" width="450" height="350">
+* Image from Medium
+
+In the grid layout, the columns are vertical, and the rows are horizontal. Between each of the grid cells are column or row gaps that separate the grid items.
 
 ## Flex
 
-## BLock
+## Block
 
 ## Inline Styling
 
@@ -145,6 +183,10 @@ Learn More:
 https://www.w3schools.com/css/css_intro.asp
 
 https://www.geeksforgeeks.org/css-box-model/
+
+https://inside.caratlane.com/demystifying-css-grid-creating-powerful-layouts-for-modern-web-design-e612544ed793
+
+https://www.w3schools.com/css/css_grid.asp
 
 Practice:
 
